@@ -4,9 +4,9 @@ Step 1: Variables                           -Done
 <br/>
 Step 2: Operators                           -In-Progress 
 
-        1. Arithmetic Operators <br/>
-        2. Assignment Operators <br/>
-        3. Comparison Operators <br/>
-        4. Logical Operators <br/>
-        5. Bitwise Operators <br/>
+        1. Arithmetic Operators
+        2. Assignment Operators
+        3. Comparison Operators
+        4. Logical Operators
+        5. Bitwise Operators
 
