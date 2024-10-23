@@ -7,21 +7,41 @@
 let x= 20;
 let y= 10;
 
-console.log(x+y);//Addition
-console.log(x-y);//Subtruction
-console.log(x*y);//Multiplications
-console.log(x/y);//Division
-console.log(x%y);//Remender in division
-console.log(x**y); //Exponentiation x to the power of y
+console.log("-------------Arithmetic Operators--------------");
+console.log("x = "+ x);
+console.log("y = "+ y);
+let z=x+y;
+console.log("x+y = " + z);//Addition
+z=x-y;
+console.log("x-y = " + z);//Subtruction
+
+z=x*y;
+console.log("x*y = " + z);//Multiplications
+z=x/y;
+console.log("x/y = " + z);//Division
+z = x%y;
+console.log("x%y = " + z);//Remender in division
+z = x**y;
+console.log("x**y =" + z); //Exponentiation x to the power of y
 
 //Incremental Operators(++)
-console.log(x++);
-console.log(x);
 
-console.log(y++);
-console.log(y);
+z=x++;
+console.log("x++ = " + z);
+
+console.log("x = " + x);
+
+z=y++;
+console.log("y++ = " + z);
+
+
+console.log("y = " + y);
 //Decremental Operators(--)
-console.log(--x);
-console.log(x);
-console.log(--y);
-console.log(y);
+
+z=--x;
+console.log("--x = " + z);
+console.log("x = " + x);
+z=y--;
+console.log("y-- = " + z);
+console.log("y = " + y);
+console.log("---------------------------------------------------");
